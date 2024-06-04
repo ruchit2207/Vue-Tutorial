@@ -11,21 +11,24 @@
           <router-link style="text-decoration: none; color: black;" to="/about/elon">
               About Elon
           </router-link>
+          <router-link style="text-decoration: none; color: black;" to="/api">
+              All users
+          </router-link>
       </header>
       <router-view></router-view>
       <img alt="Vue logo" src="./assets/logo.png">
-      <HelloWorld msg="Welcome to Your Vue.js App" />
+      <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+// import HelloWorld from './components/HelloWorld.vue';
 
 export default {
   name: 'App',
-  components: {
-      HelloWorld
-  }
+  // components: {
+  //     HelloWorld
+  // }
 };
 </script>
 
