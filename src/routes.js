@@ -1,23 +1,23 @@
-import { createWebHistory , createRouter } from "vue-router";
-import HomeCompo from './components/HomeCompo.vue'
-import AboutCompo from './components/AboutCompo.vue'
+import { createWebHistory, createRouter } from 'vue-router';
+import HomeCompo from './components/HomeCompo.vue';
+import AboutCompo from './components/AboutCompo.vue';
+
 const routes = [
     {
-        name : 'HomeCompo',
-        path : '/',
-        component : HomeCompo
+        name: 'HomeCompo',
+        path: '/',
+        component: HomeCompo
     },
     {
-        name : 'AboutCompo',
-        path : '/about',
-        component : AboutCompo
+        name: 'AboutCompo',
+        path: '/about/:name',
+        component: AboutCompo
     }
-]
+];
 
 const router = createRouter({
-    history : createWebHistory(),
+    history: createWebHistory(),
     routes
+});
 
-})
-
-export default router
+export default router;
