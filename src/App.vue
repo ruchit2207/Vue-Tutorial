@@ -15,8 +15,7 @@
               All users
           </router-link>
       </header>
-      <router-view></router-view>
-      <img alt="Vue logo" src="./assets/logo.png">
+      <router-view></router-view> 
       <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
   </div>
 </template>
